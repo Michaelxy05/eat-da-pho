@@ -1,11 +1,11 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "localhost",
-  port: 3307,
-  user: "root",
-  password: "myBootcamp7",
-  database: "pho_db"
+  host: "bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  port: 3306,
+  user: "ep9dm8nbo8473ff4",
+  password: process.env.DB_DATABASE,
+  database: "	yq3730689hsem90l"
 });
 
 
